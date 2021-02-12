@@ -1,0 +1,169 @@
+.header {
+      text-align: center;
+}
+
+
+
+.header > h1 {
+      margin: .7em 0 .6em 0;
+      font-family:'Times New Roman', Times, serif;
+      font-size: 5em;
+      font-weight: 100;
+}
+
+
+
+main {
+      border: 1px solid black;
+      padding: 0;
+      margin: 1em;
+      display: flex;
+      flex-direction: column;
+}
+
+
+
+.full-border {
+      display: flex;
+      flex-direction: row;
+}
+
+.student-learn {
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      padding: 1em;
+      flex-basis: 50%;
+
+}
+
+.student-learn > h2 {
+      font-style: italic;
+      font-weight: 100;
+      font-size: 2em;
+      text-align: center;
+}
+
+
+
+.breaking-news {
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      flex-basis: 150%;
+      display: inline-block;
+      text-align: center;
+}
+
+.breaking {
+      text-transform: uppercase;
+}
+
+.capitalize {
+      text-transform: capitalize;
+}
+
+.breaking-news > h2 {
+      font-style: italic;
+      font-weight: 100;
+      font-size: 2em;
+      text-align: center;
+}
+
+.breaking-img {
+      width: 1000px;
+      height: 500px;
+}
+
+.breaking-news > p {
+      text-align: left;
+}
+
+
+.css-thing {
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      padding: 1em;
+      flex-basis: 50%;
+
+}
+
+.css-thing > h2 {
+      font-style: italic;
+      font-weight: 100;
+      font-size: 2em;
+      text-align: center;
+      text-transform: capitalize;
+}
+
+
+
+
+.second-full-border {
+      display: flex;
+      flex-direction: row;
+}
+
+.boy-likes {
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      padding: 1em;
+      flex-basis: 19%;
+}
+
+.boy-likes > h2 {
+      font-style: italic;
+      font-weight: 100;
+      font-size: 2em;
+      text-align: center;
+      text-transform: capitalize;
+}
+
+
+
+.list-items {
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      flex-basis: 79.7%;
+}
+
+.list-items > a {
+      text-decoration: none;
+      padding: 2em;
+      font-size: 1.3em;
+      font-weight: 900;
+      color: gray;
+}
+
+.anchor-color-1 {
+      background-color: #FFEAA7;
+}
+
+.anchor-color-2 {
+      background-color: #81ECEC;
+}
+
+.anchor-color-3 {
+      background-color: #55EFC4;
+}
+
+.anchor-color-4 {
+      background-color: #74B9FF;
+}
+
+.anchor-color-5 {
+      background-color: #A29BFE;
+}
+
+
+
+p {
+      font-size: 1.2em;
+}
